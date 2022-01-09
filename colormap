@@ -2,7 +2,7 @@
 import os.path, math
 import scurve
 from scurve import progress
-import Image, ImageDraw
+from PIL import Image, ImageDraw
 
 def sortedPixels(csource, img, quiet):
     img = Image.open(img, "r")

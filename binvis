@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-import os.path, math, string, sys
+import os, math, string, sys
 import scurve
 from scurve import progress, utils, draw
-import Image, ImageDraw
+from PIL import Image, ImageDraw
 
 
 class _Color:
