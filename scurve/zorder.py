@@ -1,5 +1,5 @@
+from . import utils
 import math
-import utils
 
 
 class ZOrder:

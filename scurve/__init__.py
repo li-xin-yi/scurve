@@ -1,4 +1,4 @@
-import hilbert, zigzag, zorder, natural, graycurve, hcurve
+from . import hilbert, zigzag, zorder, natural, graycurve, hcurve
 
 
 curveMap = {
@@ -9,7 +9,8 @@ curveMap = {
     "natural": natural.Natural,
     "gray": graycurve.GrayCurve,
 }
-curves = curveMap.keys()
+
+curves = list(curveMap.keys())
 
 
 def fromSize(curve, dimension, size):
